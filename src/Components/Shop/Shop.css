@@ -1,0 +1,14 @@
+.shop-container{
+    display: flex;
+    justify-content: space-between;
+}
+.blank-div{
+    width: 10%;
+}
+.product-container{
+    width: 60%;
+    text-align: justify;
+}
+.cart-div{
+    width: 30%;
+}

@@ -1,0 +1,36 @@
+h2,h3{
+    text-align: center;
+}
+h2{
+    font-weight: bolder;
+    color: #FF9800;
+    border-bottom: 1px solid rgb(153, 152, 152);
+    border-top: 1px solid rgb(153, 152, 152);
+    padding: 5px;
+}
+#btn{
+    display: none;
+}
+.cart-detail{
+    width: 80%;
+    margin: 25px auto;
+    box-shadow: 5px 8px 15px grey;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 35px;
+ 
+}
+
+
+
+
+
+
+h3{
+    font-weight: 400;
+}
+span{
+    margin-left: 10%;
+    font-weight: bolder;
+    /* color: #FF9800; */
+}
