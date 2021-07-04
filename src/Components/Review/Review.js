@@ -1,4 +1,5 @@
 import React from 'react';
+import './Review.css';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import fakeData from '../../fakeData';
@@ -48,8 +49,8 @@ const Review = () => {
     let g;
     let thankYou;
     if(orderPlaced){
-        thankYou = <img src={happyImage} alt="" />
-        g =<h1>You Successfully Placed Your Order</h1>
+        thankYou = <img className="gify" src={happyImage} alt="" />
+        g =<h1>Successfully Placed Your Order</h1>
     }
     return (
      
@@ -66,8 +67,8 @@ const Review = () => {
             </div>
             <div className="cart-div">
                 <Cart cart={cart}>
-                    <button style={{marginLeft:'70px'}} onClick={handlePlaceOrder} 
-                    className='main-button'><FontAwesomeIcon icon={faCheckSquare}/> Place Order</button>
+                    <button onClick={handlePlaceOrder} 
+                    className='main-button place'><FontAwesomeIcon icon={faCheckSquare}/> Place Order</button>
                 </Cart>
             </div>
 

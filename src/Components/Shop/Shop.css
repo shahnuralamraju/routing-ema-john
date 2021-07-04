@@ -12,3 +12,68 @@
 .cart-div{
     width: 30%;
 }
+.review{
+    margin-left: 70px;
+}
+/* add media quearies  */
+
+@media only screen and (max-width: 867px){
+    .shop-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items:center;
+    }
+    .cart-detail{
+        width: 100%;
+        margin: none;
+    }
+    .cart-div{
+        width: 80%;
+    }
+
+    .place, .review{
+        margin-left: 0px;
+    }
+    .blank-div{
+        display: none;
+    }
+    .gify{
+        width: 100%;
+        margin-top: 8px;
+        border-radius: 10px;
+    }
+    .product-div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .info-div{
+        margin-left: 0;
+        width: 100%;
+        padding: 8px;
+        margin: 8px 0;
+    }
+    .img-div{
+        width: 100%;
+        margin-left: 0;
+    }
+    .cart-div h3{
+        font-size: 18px;
+    }
+    .cart-div h2{
+        font-size: 20px;
+    }
+    .cart-div p{
+        font-size: 14px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+    
+}
+
+

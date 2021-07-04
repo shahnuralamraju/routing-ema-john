@@ -1,4 +1,5 @@
 import React from 'react';
+import './../Review/Review.css'
 import { useEffect } from 'react';
 import { useState } from 'react';
 import fakeData from '../../fakeData';
@@ -72,7 +73,7 @@ const Shop = () => {
             <div className="cart-div">
                 <Cart cart={cart}>
                     <Link to="/review">
-                        <button style={{marginLeft:'70px'}} className='main-button mt-2'>Order Review</button>
+                        <button className='main-button review mt-2'>Order Review</button>
                     </Link>
                 </Cart>
             </div>
